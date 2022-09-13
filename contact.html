@@ -72,7 +72,7 @@
 					<div class="col-lg-3 col-md-12">
 						<div class="header-logo">
 							<a href="index.html" style="text-decoration: none;">
-								<h3 style="color: #C8DAFF; text-decoration: none;">CARYWAY</h3>
+								<h3 style="color: #C8DAFF; text-decoration: none;">Homepage</h3>
 							</a>
 						</div>
 					</div>
@@ -87,7 +87,7 @@
 						<div class="logo-container">
 							<div class="header-logo">
 								<a>
-									<h3 style="color: #C8DAFF; cursor: pointer;" href="index.html">CARYWAY</h3>
+									<h3 style="color: #C8DAFF; cursor: pointer;" href="index.html">Homepage</h3>
 							</div>
 							<div class="menu-toggle">
 								<div class="icon">
@@ -281,11 +281,11 @@
 				<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1"
 					class="tab"></label>
 				<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
-				<div class="login-form">
+				<form class="login-form">
 					<div class="sign-in-htm">
 						<div class="group">
 							<label for="user" class="label">Name</label>
-							<input id="user" type="text" class="input">
+							<input id="user" type="text" class="input" required>
 						</div>
 						<!-- <div class="group">
 							<label for="user" class="label">Email Address</label>
@@ -294,7 +294,7 @@
 
 						<div class="group">
 							<label for="user" class="label">Mobile Number</label>
-							<input id="user" type="text" class="input">
+							<input id="user" type="text" class="input" required>
 						</div>
 
 						<div class="group">
@@ -303,7 +303,9 @@
 						</div>
 
 						<div class="group">
+							<a href="index.html">
 							<input type="submit" class="button" value="Send message">
+							</a>
 						</div>
 						<!-- <div class="hr"></div> -->
 						<!-- <div class="foot-lnk">
@@ -311,7 +313,7 @@
 						</div> -->
 					</div>
 					
-				</div>
+				</form>
 			</div>
 		</div>
 	</section>

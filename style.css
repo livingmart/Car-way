@@ -9,7 +9,7 @@
 
 .carbrandlogos{    
     flex-wrap: wrap;
-    top: 650px;
+    top: 640px;
     left: 200px;
     width: 100%;
     align-items: center;
@@ -22,7 +22,8 @@
 .carbrandlogos img{
     margin-left: 0 auto;
     justify-self: center;
-    align-self: center;    
+    align-self: center;   
+    /* height: 80px;  */
 }
 @media only screen and  (max-width:426px){
 .carbrandlogos{    
@@ -823,6 +824,7 @@
     position: relative;
     z-index: 1;
     background: #00091C;
+    /* margin-bottom: 50px; */
 ;
 }
 .slider-section-3 .slider-content {
@@ -877,6 +879,13 @@
     /* top: -75px; */
     left: 0;
     z-index: -1;
+}
+.slider_list{
+    /* border: 2px solid red; */
+    /* margin-bottom: -50px; */
+    /* max-height: 90vh; */
+    max-height: 619px;
+    /* padding-bottom: 50px; */
 }
 .slider_list .owl-dot {
     display: block;

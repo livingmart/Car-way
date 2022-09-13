@@ -113,7 +113,7 @@ textarea{
     color: #C8DAFF;
 }
 .login-form .group input[data-type="password"]{
-	text-security:circle;
+	/* text-security:circle; */
 	-webkit-text-security:circle;
 }
 .login-form .group .label{
